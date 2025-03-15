@@ -1,0 +1,354 @@
+{
+  "aboutme": [
+    {
+      "heaaderimag": "images/header-background2.jpeg",
+      "name": "Ali Hatem",
+      "bio": [
+        "A software engineer with a strong focus on React and Next.js ⚛️.",
+        "Passionate about creating visually stunning user interfaces using HTML, CSS, and JavaScript 💻.",
+        "Let's collaborate and craft exceptional web experiences together! 🌟"
+      ],
+      "cv": "https://drive.google.com/file/d/1dU6upNzlpnAvgxSFynd2X6sij8cemv8V/view?usp=share_link",
+      "footer": "images/footer.jpeg"
+    }
+  ],
+
+  "Projects": [
+    {
+      "imeg": "images/2-5.png",
+      "title": "1M Brothers",
+      "description": "Front-end part of a graduation project for my final year. Responsible for entire front-end development. Donation website for patient cases. Users can donate and submit new cases. Upload papers and await admin approval. Integrated payment provider. Designed intuitive user interface. Showcase of HTML, CSS, and JavaScript skills. Functional and visually appealing website. Real-world application.",
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
+      "demo": "http://imbr.surge.sh/",
+      "github": "https://github.com/alihatem360/1m-brother_frontend",
+      "video": "https://youtu.be/BDsHi7dYvxc",
+      "videoKey": "BDsHi7dYvxc",
+      "codeStatus": "PRIVATE"
+    },
+    {
+      "imeg": "images/alshaatir-academy.png",
+      "title": "Alshaatir Academy",
+      "description": "Al Shater Platform is an innovative educational application that helps students improve their skills and organize their time through interactive lessons, tests, and customized tools. Enjoy a smart and easy learning experience anytime, anywhere!.",
+      "technology": ["NextJs", "Tailwind"],
+      "demo": "https://alshaatir-academy.vercel.app/",
+      "github": "",
+      "video": "https://youtu.be/40jQddkcsg8",
+      "videoKey": "40jQddkcsg8",
+      "codeStatus": "PRIVATE"
+    },
+    {
+      "imeg": "images/finalFawriElmaliiik_cover.png",
+      "title": "Fawri Elmaliiik",
+      "description": "This project is a comprehensive system for managing customers tailored for express agency offices, developed using modern technologies to ensure high performance and user-friendliness. The system aims to simplify and improve the process of managing customers, allowing for easy and efficient addition, deletion, modification, and search of customers.",
+      "technology": [
+        "ReactJs",
+        "Redux",
+        "material-ui",
+        "Api",
+        "Firebase",
+        "NodeJs"
+      ],
+      "demo": "",
+      "github": "",
+      "video": "https://youtu.be/Zw9_UgIOrGg",
+      "videoKey": "Zw9_UgIOrGg",
+      "codeStatus": "PRIVATE"
+    },
+
+    {
+      "imeg": "images/makhabrash.png",
+      "title": "Makhabrash",
+      "description": "(Makhabrash) is a web application that allows users to send messages to anyone anonymously. It is built using React for the frontend and Firebase for backend services.",
+      "technology": ["ReactJs", "Tailwind", "Firebase"],
+      "demo": "https://makhabrash.vercel.app/",
+      "github": "https://github.com/alihatem360/Makhabrash",
+      "codeStatus": "PRIVATE"
+    },
+    {
+      "imeg": "images/EcommerceWebsite.webp",
+      "title": "ReactJs Ecommerce",
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
+      "demo": "",
+      "github": "https://github.com/alihatem360/ecommerceReactJS",
+      "video": "https://youtu.be/GBpBnKl0Rr8",
+      "videoKey": "GBpBnKl0Rr8",
+      "codeStatus": "PRIVATE"
+    },
+    {
+      "imeg": "images/attendance recording.jpg",
+      "title": "Lecture management and attendance recording system",
+      "technology": ["ReactJs", "Material-ui", "Firebase"],
+      "demo": "",
+      "github": "",
+      "video": "https://youtu.be/12NFx9-F-IU",
+      "videoKey": "12NFx9-F-IU",
+      "codeStatus": "PRIVATE"
+    },
+    {
+      "imeg": "images/pdfEcommerce.png",
+      "title": "Preisliste-ecommerce (Full Stack)",
+      "technology": [
+        "ReactJs",
+        "material-ui",
+        "nodeJs",
+        "expressJs",
+        "firebase"
+      ],
+      "demo": "",
+      "github": "",
+      "video": "https://youtu.be/lCVyxbbBXVM",
+      "videoKey": "lCVyxbbBXVM"
+    },
+    {
+      "imeg": "images/Dr. Mayada Salah.png",
+      "title": "Dr. Mayada Salah",
+      "technology": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://alihatem360.github.io/basmatalnarjis/",
+      "github": "https://github.com/alihatem360/basmatalnarjis.git",
+      "codeStatus": "PRIVATE",
+      "loomVideo": "https://www.loom.com/share/c17e174a3721453bbfb77ce2911fa553?sid=cb9b92d1-0401-4cdf-90c1-3be5b8342e5d"
+    },
+    {
+      "imeg": "images/pest-sweepy Dashboard.png",
+      "title": "pest-sweepy Dashboard",
+      "technology": ["ReactJs", "Redux", "material-ui", "Api"],
+      "demo": "https://nifty-tendency.surge.sh/",
+      "github": "https://github.com/alihatem360/pest-sweepy-dashboard.git",
+      "codeStatus": "PRIVATE",
+      "loomVideo": "https://www.loom.com/share/c701533416d94618a1bcdafa8713a405?sid=b71a4010-c8aa-4f27-a617-2a123dbad16a"
+    },
+    {
+      "imeg": "images/mohammed-al-huwaila.png",
+      "title": "mohammed-al-huwaila",
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
+      "demo": "https://mohammed-al-huwaila2.vercel.app/",
+      "github": "https://github.com/alihatem360/Mohammed-Al-Huwaila2",
+      "codeStatus": "PRIVATE",
+      "loomVideo": "https://www.loom.com/share/fb99053bff5846338219c06e556ad8a2?sid=3c8e1162-0251-405f-83d7-3082772b7efb"
+    },
+    {
+      "imeg": "images/thamer-al-suwait.png",
+      "title": "thamer-al-suwait",
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
+      "demo": "https://thamer-al-suwait.vercel.app/",
+      "github": "https://github.com/alihatem360/Thamer-Al-Suwait",
+      "codeStatus": "PRIVATE"
+    },
+    {
+      "imeg": "images/saoud-al-asfour.png",
+      "title": "saoud-al-asfour",
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
+      "demo": "https://saoud-al-asfour.vercel.app/",
+      "github": "https://github.com/alihatem360/Saoud_Al-Asfour",
+      "codeStatus": "PRIVATE"
+    },
+    {
+      "imeg": "images/abdullah-mutlaq-awad-al-mutairi.png",
+      "title": "abdullah-mutlaq-awad-al-mutairi",
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
+      "demo": "https://abdullah-mutlaq-awad-al-mutairi.vercel.app/",
+      "github": "https://github.com/alihatem360/abdullah_mutlaq_awad_al-mutairi",
+      "codeStatus": "PRIVATE"
+    },
+    {
+      "imeg": "images/CalorieBot.jpg",
+      "title": "Calorie Bot",
+      "technology": ["NodeJs", "ExpressJs", "TelegramBotApi", "NutritionixApi"],
+      "demo": "",
+      "github": "",
+      "video": "https://youtu.be/XDYKVguRDUU",
+      "videoKey": "XDYKVguRDUU",
+      "codeStatus": "PRIVATE",
+      "description": "Welcome to Calorie Bot, your go-to Telegram bot for quick and easy access to nutritional information about various foods! 🍏🥦🍕"
+    },
+    {
+      "imeg": "images/LaptopStore Contract.png",
+      "title": "LaptopStore Contract",
+      "technology": ["ReactJs", "material-ui", "react-to-print", "PWA"],
+      "demo": "https://laptop-store.surge.sh/",
+      "github": "https://github.com/alihatem360/laptop_store.git",
+      "codeStatus": "PRIVATE",
+      "description": "The Laptop Sales Project is a web application built using React.js and Material-UI, designed to streamline the process of selling laptops. It enables selling individuals to fill out a contract form and print the contract using Microsoft Print. This project simplifies the creation of laptop sales contracts.💻📝🖨️"
+    },
+
+    {
+      "imeg": "images/E-Learning.png",
+      "title": "E-Learning ReactJS",
+      "technology": ["Tailwind", "React", "Vite"],
+      "demo": "https://e-learningreactjs.pages.dev/",
+      "github": "https://github.com/alihatem360/e-learningReactJS",
+      "video": "https://youtu.be/L6EqydzzSr8",
+      "videoKey": "L6EqydzzSr8"
+    },
+    {
+      "imeg": "images/greeting-card.png",
+      "title": "greeting-card",
+      "technology": ["ReactJs", "Tailwind", "Vite"],
+      "demo": "https://greeting-card-pied.vercel.app/",
+      "github": "https://github.com/alihatem360/greeting-card",
+      "video": "https://youtu.be/XDKyLS0QXpg",
+      "videoKey": "XDKyLS0QXpg"
+    },
+    {
+      "imeg": "images/Hospital-LandingPage.png",
+      "title": "hospital-landing-page",
+      "technology": ["HTML", "CSS", "JavaScript"],
+      "demo": "https://hospital-landing-page-sooty.vercel.app/",
+      "github": "https://github.com/alihatem360/Hospital-LandingPage",
+      "video": ""
+    },
+    {
+      "imeg": "images/MovieReactJs.webp",
+      "title": "movieReactJs",
+      "technology": [
+        "ReactJs",
+        "contextApi",
+        "Api",
+        "ReactJs-hook",
+        "Bootstrap"
+      ],
+      "demo": "https://shoping-cart-redux-vite.pages.dev/",
+      "github": "https://github.com/alihatem360/movieReactJs"
+    },
+
+    {
+      "imeg": "images/alhatab.webp",
+      "title": "alhatab",
+      "technology": ["HTML", "CSS"],
+      "demo": "https://alihatem360.github.io/alhatab/",
+      "github": "https://github.com/alihatem360/alhatab",
+      "video": "https://youtu.be/eGk8rV_FJJ4",
+      "videoKey": "eGk8rV_FJJ4"
+    },
+    {
+      "imeg": "images/2-4.webp",
+      "title": "agrica",
+      "technology": ["HTML", "Sass", "JavaScript", "Bootstrap"],
+      "demo": "https://alihatem360.github.io/agrica/",
+      "github": "https://github.com/alihatem360/agrica",
+      "video": "https://youtu.be/ei4yh9LXXbU",
+      "videoKey": "ei4yh9LXXbU"
+    },
+    {
+      "imeg": "images/1-1.webp",
+      "title": "Portfolio Website",
+      "technology": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "demo": "https://alihatem360.github.io/Portfolio-Template/",
+      "github": "https://github.com/alihatem360/Portfolio-Template"
+    },
+    {
+      "imeg": "images/1-3.webp",
+      "title": "Js Template",
+      "technology": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "demo": "https://alihatem360.github.io/Js-Template/",
+      "github": "https://github.com/alihatem360/Js-Template",
+      "video": "https://youtu.be/IkweYBUhlM4",
+      "videoKey": "IkweYBUhlM4"
+    },
+    {
+      "imeg": "images/BookDownloadPage.png",
+      "title": "BookDownloadPage",
+      "technology": ["HTML", "CSS"],
+      "demo": "https://alihatem360.github.io/BookDownloadPage/",
+      "github": "https://github.com/alihatem360/BookDownloadPage",
+      "codeStatus": "PRIVATE"
+    },
+
+    {
+      "imeg": "images/movies-list-redux.webp",
+      "title": "movies-list-redux",
+      "technology": ["ReactJs", "Redux", "Bootstrap", "Api"],
+      "demo": "https://movies-list-redux.pages.dev/",
+      "github": "https://github.com/alihatem360/movies-list-redux"
+    },
+    {
+      "imeg": "images/NFT-Shop.webp",
+      "title": "NFT-Shop",
+      "technology": ["ReactJs", "Bootstrap", "Api"],
+      "demo": "",
+      "github": "https://github.com/alihatem360/NFT-Shop",
+      "video": ""
+    },
+    {
+      "imeg": "images/1-2.webp",
+      "title": "Restaurant Website",
+      "technology": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+      "demo": "https://alihatem360.github.io/Restaurant-Template/",
+      "github": "https://github.com/alihatem360/Restaurant-Template"
+    },
+    {
+      "imeg": "images/2-1.webp",
+      "title": "UdacityMyReadsProject",
+      "technology": ["ReactJs", "Bootstrap", "Api"],
+      "demo": "https://udacitymyreadsproject.pages.dev/",
+      "github": "https://github.com/alihatem360/UdacityMyReadsProject"
+    },
+    {
+      "imeg": "images/2-2.webp",
+      "title": "SpeakersReactjs",
+      "technology": ["ReactJs", "Bootstrap"],
+      "demo": "https://speakersreactjs.pages.dev/",
+      "github": "https://github.com/alihatem360/SpeakersReactjs"
+    },
+    {
+      "imeg": "images/farooq-task.webp",
+      "title": "farooq-task",
+      "technology": ["ReactJs", "reactbootstrap", "Api"],
+      "demo": "https://farooq-task.pages.dev/",
+      "github": "https://github.com/alihatem360/farooq-task"
+    },
+    {
+      "imeg": "images/2-3.webp",
+      "title": "angularECommerceGradProj",
+      "technology": ["angular", "Bootstrap", "Api"],
+      "demo": "https://21dfe692.angularecommercegradproj.pages.dev/login",
+      "github": "https://github.com/alihatem360/angularECommerceGradProj"
+    },
+    {
+      "imeg": "images/1-5.webp",
+      "title": "IMDb Movies",
+      "technology": ["C#", "ASP.NET", "MVC", "Entity Framework", "SQL"],
+      "demo": "",
+      "github": "https://github.com/alihatem360/IMDb"
+    }
+  ],
+
+  "socials": [
+    {
+      "name": "facebook",
+      "link": "https://www.facebook.com/profile.php?id=100012592714147"
+    },
+    {
+      "name": "twitter",
+      "link": "https://twitter.com/AliHate21071474"
+    },
+    {
+      "name": "github",
+      "link": "https://github.com/alihatem360"
+    },
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/aliihatem-753025203/"
+    },
+    {
+      "name": "instagram",
+      "link": "https://www.instagram.com/alihatem5496/"
+    },
+    {
+      "name": "youtube",
+      "link": "https://www.youtube.com/channel/UC8VBtReu7uU0w7bCVgE-KVA"
+    },
+    {
+      "name": "email",
+      "link": "mailto:alihatemramadan5@gmail.com"
+    },
+    {
+      "name": "phone",
+      "link": "+201026159353"
+    },
+    {
+      "name": "whatsapp",
+      "link": "http://wa.me/+201026159353"
+    }
+  ]
+}

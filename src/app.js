@@ -17,6 +17,11 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use(express.json());
 
+// Base route
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to the API" });
+});
+
 // Routes
 app.use("/api/projects", require("./routes/projectRoutes"));
 app.use("/api/about", require("./routes/aboutMeRoutes"));

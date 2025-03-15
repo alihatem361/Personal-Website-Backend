@@ -1,6 +1,5 @@
 const multer = require("multer");
-const { ref, uploadBytes, getDownloadURL } = require("firebase/storage");
-const { storage } = require("../config/firebase");
+const { cloudinary } = require("../config/cloudinary");
 
 // Configure multer for memory storage
 const upload = multer({
@@ -10,32 +9,25 @@ const upload = multer({
   },
 });
 
-// Middleware for handling file upload to Firebase
-const uploadToFirebase = async (req, res, next) => {
+// Middleware for handling file upload to Cloudinary
+const uploadToCloudinary = async (req, res, next) => {
   try {
     if (!req.file) {
       return next();
     }
 
-    const dateTime = Date.now();
-    const fileName = `images/${dateTime}_${req.file.originalname}`;
+    // Convert buffer to base64
+    const b64 = Buffer.from(req.file.buffer).toString("base64");
+    let dataURI = "data:" + req.file.mimetype + ";base64," + b64;
 
-    // Create file reference
-    const storageRef = ref(storage, fileName);
-
-    // Create file metadata including the content type
-    const metadata = {
-      contentType: req.file.mimetype,
-    };
-
-    // Upload the file
-    const snapshot = await uploadBytes(storageRef, req.file.buffer, metadata);
-
-    // Get the public URL
-    const downloadURL = await getDownloadURL(snapshot.ref);
+    // Upload to Cloudinary
+    const result = await cloudinary.uploader.upload(dataURI, {
+      resource_type: "auto",
+      folder: "personal-website",
+    });
 
     // Add the URL to the request body
-    req.body.imeg = downloadURL;
+    req.body.imeg = result.secure_url;
 
     next();
   } catch (error) {
@@ -45,4 +37,4 @@ const uploadToFirebase = async (req, res, next) => {
   }
 };
 
-module.exports = { upload, uploadToFirebase };
+module.exports = { upload, uploadToCloudinary };

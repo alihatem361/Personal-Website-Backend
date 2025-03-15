@@ -7,17 +7,20 @@ const {
   updateProject,
   deleteProject,
 } = require("../controllers/projectController");
-const { upload, uploadToFirebase } = require("../middleware/uploadMiddleware");
+const {
+  upload,
+  uploadToCloudinary,
+} = require("../middleware/uploadMiddleware");
 
 router
   .route("/")
   .get(getProjects)
-  .post(upload.single("image"), uploadToFirebase, createProject);
+  .post(upload.single("image"), uploadToCloudinary, createProject);
 
 router
   .route("/:id")
   .get(getProject)
-  .put(upload.single("image"), uploadToFirebase, updateProject)
+  .put(upload.single("image"), uploadToCloudinary, updateProject)
   .delete(deleteProject);
 
 module.exports = router;
